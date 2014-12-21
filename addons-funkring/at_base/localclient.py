@@ -18,7 +18,7 @@
 #
 ##############################################################################
 
-from openerp.service import model 
+from openerp.addons.web.session import Model 
 
 class LocalConnection(object):
     """
