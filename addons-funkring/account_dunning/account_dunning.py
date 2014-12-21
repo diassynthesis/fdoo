@@ -20,7 +20,7 @@
 
 from openerp.osv import fields, osv
 import openerp.addons.decimal_precision as dp
-from openerp.addons.at_base import util
+import openerp.addons.at_base.util
 from dateutil.relativedelta import relativedelta
 
 class dunning_profile(osv.Model):
